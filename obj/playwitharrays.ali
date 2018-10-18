@@ -1,0 +1,92 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnato
+A -fstack-check=specific
+A -gnata
+A -gnat12
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U playwitharrays%b	playwitharrays.adb	dca35766 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.assertions%s	s-assert.adb		s-assert.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U playwitharrays%s	playwitharrays.ads	4417d8c2 EE NE OO PK IL
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D playwitharrays.ads	20181018213314 4417d8c2 playwitharrays%s
+D playwitharrays.adb	20181018212246 10a93cfe playwitharrays%b
+D system.ads		20180524051738 32a08138 system%s
+D s-assert.ads		20180524051738 cd8d2c94 system.assertions%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r27
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r31
+X 10 playwitharrays.ads
+1K9*playWithArrays 80l5 80e19 11|3b14 52l5 52t19
+2A9*T_Table(integer)<integer> 4r26 4r44 4r60 26r33 26r51 26r67 48r44 48r62
+. 48r78 11|5r26 5r44 5r60 6r13 33r33 33r51 33r67 39r44 39r62 39r78 40r13
+. 41r13
+4V13*play{2A9} 4>19 4>35 14r14 16r14 19r27 21r20 24r20 11|5b13 31l8 31t12
+. 35s14 40s24
+4a19 Table{2A9} 7r15 9r15 10r15 11r15 12r15 14r34 16r33 21r37 11|5b19 6r22
+. 6r37 8r11 8r56 9r26 11r13 11r27 12r23 17r39 21r29
+4a35 Table_2{2A9} 8r15 9r30 10r29 11r28 24r37 11|5b35 8r32 8r70 9r39 17r53
+. 23r29
+19i22 J{integer} 20r20 21r32 21r43 23r20 24r32 24r45
+26V13*playInverse{2A9} 26>26 26>42 35r16 37r16 40r29 42r23 45r21 11|33b13
+. 36l8 36t19
+26a26 Table{2A9} 28r15 30r15 31r15 32r15 33r15 35r43 37r42 42r47 11|33b26
+. 35r27
+26a42 Table_2{2A9} 29r15 30r30 31r29 32r28 45r45 11|33b42 35r19
+40i24 J{integer} 41r22 42r42 42r53 44r22 45r40 45r53
+48V13*playArrayResultInverse{2A9} 48>37 48>53 58r16 60r16 62r19 63r32 65r29
+. 68r28 72r18 73r32 75r29 78r30 11|39b13 50l8 50t30
+48a37 Table{2A9} 50r15 52r15 53r15 54r15 55r15 58r54 60r53 65r64 65r70 78r65
+. 78r71 11|39b37 40r29 41r22 41r37
+48a53 Table_2{2A9} 51r15 52r30 53r29 54r28 68r63 68r71 75r63 75r71 11|39b53
+. 40r35
+63i27 J{integer} 64r28 65r59 65r83 67r28 68r58 68r86
+73i27 J{integer} 74r28 75r59 75r86 77r28 78r60 78r84
+X 11 playwitharrays.adb
+6a7 res{10|2A9} 9r7 12m13 14r20 16r22 21m19 23m19 30r17
+16i17 J{integer} 20r19 21r23 21r35 23r23 23r37
+40a7 res{10|2A9} 43r10 43r38 46r23 46r27
+41a7 def{10|2A9} 43r23 43r50 44r19 44r32 46m13 49r14
+44i14 J{integer} 45r36 46r17 46r38
+

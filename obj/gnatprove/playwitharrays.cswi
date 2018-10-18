@@ -1,0 +1,12 @@
+20181018213436
+-c
+-x
+ada
+-gnatA
+-g
+-gnato
+-fstack-check
+-gnata
+-gnat12
+-gnatc
+-gnates=C:\Users\Cristina\Desktop\playWithArrays\obj\gnatprove\be19f63b.tmp
