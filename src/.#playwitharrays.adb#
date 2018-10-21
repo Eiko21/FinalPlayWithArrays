@@ -15,7 +15,6 @@ package body playWithArrays with SPARK_Mode => On is
          else
             for J in res'Range loop
                pragma Loop_Invariant (Table'First = Table_2'First );
-               --pragma Loop_Invariant ();
 
                if J rem 2 = 0 then
                   res(J) := Table(J);
